@@ -19,7 +19,11 @@ export function createInteractionHandler({ commands, logger }) {
       ) {
         return await reply('Você não tem permissão para usar este comando.');
       }
-      const botPermissions = command.botPermissions ?? PermissionFlagsBits.EmbedLinks;
+      const botPermissions =
+        command.botPermissions ??
+        PermissionFlagsBits.EmbedLinks |
+          PermissionFlagsBits.SendMessages |
+          PermissionFlagsBits.ViewChannel;
       if (
         interaction.inGuild() &&
         (!interaction.appPermissions || !interaction.appPermissions.has(botPermissions))
