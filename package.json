@@ -16,7 +16,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "node --test",
-    "test:startup": "node scripts/check-startup.js"
+    "test:startup": "node scripts/check-startup.js",
+    "commands:deploy": "node --env-file-if-exists=.env scripts/deploy-commands.js"
   },
   "dependencies": {
     "discord.js": "14.28.1",
