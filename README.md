@@ -1,6 +1,6 @@
-![DISCORD Bot Base por RTPySystems](assets/banner.svg)
+![DISCORD Bot Base por RTPySystems](assets/banner.png)
 
-![Node.js 24 LTS · discord.js 14.28.1 · MIT · ESM](assets/badges.svg)
+![Node.js 24 LTS · discord.js 14.28.1 · MIT · ESM](assets/badges.png)
 
 # Discord Bot Base
 
@@ -21,7 +21,7 @@ tem seu lugar, do primeiro comando até o encerramento do processo.
 | **Pronto para evoluir**   | Eventos independentes, embeds com identidade visual, cooldown por usuário/comando e encerramento seguro.          |
 | **Qualidade e segurança** | ESLint, Prettier, testes com `node:test`, CI configurada, configuração validada e logs sem conteúdo de conversas. |
 
-![Fluxo: INTERAÇÃO → VALIDAÇÃO → COMANDO → RESPOSTA](assets/architecture.svg)
+![Fluxo: INTERAÇÃO → VALIDAÇÃO → COMANDO → RESPOSTA](assets/architecture.png)
 
 ## Começar
 
